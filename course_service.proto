@@ -13,6 +13,5 @@ message GetCourseResponse {
 }
 
 service CourseService {
-  // Определяем метод gRPC-сервиса
   rpc GetCourse (GetCourseRequest) returns (GetCourseResponse);
 }
