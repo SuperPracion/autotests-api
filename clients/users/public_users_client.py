@@ -6,7 +6,6 @@ class CreateUsersDict(TypedDict):
     """
     Описание структуры запроса на создание пользователя.
     """
-
     email: str
     password: str
     lastName: str
