@@ -117,7 +117,9 @@ class ExercisesClient(APIClient):
         """
         return self.post("/api/v1/exercises", json=request)
 
-    def update_exercise_api(self, exercise_id: str, request: UpdateExerciseRequestDict) -> Response:
+    def update_exercise_api(
+        self, exercise_id: str, request: UpdateExerciseRequestDict
+    ) -> Response:
         """
         Метод обновления задания.
 
@@ -156,7 +158,9 @@ class ExercisesClient(APIClient):
         response = self.get_exercise_api(exercise_id)
         return response.json()
 
-    def create_exercise(self, request: CreateExerciseRequestDict) -> CreateExerciseResponseDict:
+    def create_exercise(
+        self, request: CreateExerciseRequestDict
+    ) -> CreateExerciseResponseDict:
         """
         Метод создания задания.
 
@@ -166,7 +170,9 @@ class ExercisesClient(APIClient):
         response = self.create_exercise_api(request)
         return response.json()
 
-    def update_exercise(self, exercise_id: str, request: UpdateExerciseRequestDict) -> UpdateExerciseResponseDict:
+    def update_exercise(
+        self, exercise_id: str, request: UpdateExerciseRequestDict
+    ) -> UpdateExerciseResponseDict:
         """
         Метод обновления задания.
 
@@ -178,7 +184,7 @@ class ExercisesClient(APIClient):
         return response.json()
 
 
-def get_exercise_client(user: AuthenticationUserDict) -> ExercisesClient:
+def get_exercises_client(user: AuthenticationUserDict) -> ExercisesClient:
     """
     Функция создаёт экземпляр ExercisesClient с уже настроенным HTTP-клиентом.
 

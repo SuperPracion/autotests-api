@@ -1,5 +1,5 @@
 from clients.courses.courses_client import get_courses_client, CreateCourseRequestDict
-from clients.exercises.exercises_client import get_exercise_client, CreateExerciseRequestDict
+from clients.exercises.exercises_client import get_exercises_client, CreateExerciseRequestDict
 from clients.files.files_client import get_files_client, CreateFileRequestDict
 from clients.private_http_builder import AuthenticationUserDict
 from clients.users.public_users_client import get_public_users_client, CreateUserRequestDict
@@ -25,7 +25,7 @@ authentication_user = AuthenticationUserDict(
 )
 files_client = get_files_client(authentication_user)
 courses_client = get_courses_client(authentication_user)
-exercise_client = get_exercise_client(authentication_user)
+exercise_client = get_exercises_client(authentication_user)
 
 
 # Загружаем файл
