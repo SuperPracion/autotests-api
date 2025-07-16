@@ -18,35 +18,32 @@ class CoursesClient(APIClient):
     Клиент для работы с /api/v1/courses
     """
 
-    def get_courses_api(self, query: GetCoursesQuerySchema) -> GetCoursesResponseSchema:
+    def get_courses_api(self, query: GetCoursesQuerySchema) -> Response:
         """
         Метод получения списка курсов.
 
         :param query: GetCoursesQuerySchema
-        :return: Ответ в виде объекта GetCoursesResponseSchema
+        :return: Ответ от сервера в виде объекта httpx.Response
         """
-        response = self.get("/api/v1/courses", params=query.model_dump(by_alias=True))
-        return GetCoursesResponseSchema.model_validate_json(response.text)
+        return self.get("/api/v1/courses", params=query.model_dump(by_alias=True))
 
-    def get_course_api(self, course_id: str) -> GetCourseResponseSchema:
+    def get_course_api(self, course_id: str) -> Response:
         """
         Метод получения курса.
 
         :param course_id: Идентификатор курса.
-        :return: Ответ в виде объекта GetCourseResponseSchema
+        :return: Ответ от сервера в виде объекта httpx.Response
         """
-        response = self.get(f"/api/v1/courses/{course_id}")
-        return GetCourseResponseSchema.model_validate_json(response.text)
+        return self.get(f"/api/v1/courses/{course_id}")
 
-    def create_course_api(self, request: CreateCourseRequestSchema) -> CreateCourseResponseSchema:
+    def create_course_api(self, request: CreateCourseRequestSchema) -> Response:
         """
         Метод создания курса.
 
         :param request: CreateCourseRequestSchema
-        :return: Ответ в виде объекта CreateCourseResponseSchema
+        :return: Ответ от сервера в виде объекта httpx.Response
         """
-        response = self.post("/api/v1/courses", json=request.model_dump(by_alias=True))
-        return CreateCourseResponseSchema.model_validate_json(response.text)
+        return self.post("/api/v1/courses", json=request.model_dump(by_alias=True))
 
     def update_course_api(self, course_id: str, request: UpdateCourseRequestSchema) -> UpdateCourseResponseSchema:
         """
@@ -54,10 +51,9 @@ class CoursesClient(APIClient):
 
         :param course_id: Идентификатор курса.
         :param request: UpdateCourseRequestSchema.
-        :return: Ответ в виде объекта UpdateCourseResponseSchema
+        :return: Ответ от сервера в виде объекта httpx.Response
         """
-        response = self.patch(f"/api/v1/courses/{course_id}", json=request.model_dump(by_alias=True))
-        return UpdateCourseResponseSchema.model_validate_json(response.text)
+        return self.patch(f"/api/v1/courses/{course_id}", json=request.model_dump(by_alias=True))
 
     def delete_course_api(self, course_id: str) -> Response:
         """
@@ -68,8 +64,50 @@ class CoursesClient(APIClient):
         """
         return self.delete(f"/api/v1/courses/{course_id}")
 
+    def get_course(self, course_id: str) -> GetCourseResponseSchema:
+        """
+        Метод получения курса.
+
+        :param course_id: Идентификатор курса.
+        :return: Ответ в виде объекта GetCourseResponseSchema
+        """
+        response = self.get_course_api(course_id=course_id)
+        return GetCourseResponseSchema.model_validate_json(response.text)
+    
     def create_course(self, request: CreateCourseRequestSchema) -> CreateCourseResponseSchema:
-        return self.create_course_api(request)
+        """
+        Метод создания курса.
+
+        :param request: CreateCourseRequestSchema
+        :return: Ответ в виде объекта CreateCourseResponseSchema
+        """
+        response = self.create_course_api(request=request)
+        return CreateCourseResponseSchema.model_validate_json(response.text)
+    
+    def update_course(self, course_id: str, request: UpdateCourseRequestSchema) -> UpdateCourseResponseSchema:
+        """
+        Метод обновления курса.
+
+        :param course_id: Идентификатор курса.
+        :param request: UpdateCourseRequestSchema.
+        :return: Ответ в виде объекта UpdateCourseResponseSchema
+        """
+        response = self.update_course_api(course_id=course_id, request=request)
+        return UpdateCourseResponseSchema.model_validate_json(response.text)
+
+    def get_courses(self, query: GetCoursesQuerySchema) -> GetCoursesResponseSchema:
+        """
+        Метод получения списка курсов.
+
+        :param query: GetCoursesQuerySchema
+        :return: Ответ в виде объекта GetCoursesResponseSchema
+        """
+        response = self.get_courses_api(query=query)
+        return GetCoursesResponseSchema.model_validate_json(response.text)
+
+    def create_course(self, request: CreateCourseRequestSchema) -> CreateCourseResponseSchema:
+        response = self.create_course_api(request)
+        return CreateCourseResponseSchema.model_validate_json(response.text)
 
 def get_courses_client(user: AuthenticationUserSchema) -> CoursesClient:
     """
