@@ -18,26 +18,24 @@ class PrivateUsersClient(APIClient):
         """
         return self.get("/api/v1/users/me")
 
-    def get_user_api(self, user_id: str) -> GetUserResponseSchema:
+    def get_user_api(self, user_id: str) -> Response:
         """
         Метод получения пользователя по идентификатору.
 
         :param user_id: Идентификатор пользователя.
-        :return: Ответ в виде объекта GetUserResponseSchema
+        :return: Ответ от сервера в виде объекта httpx.Response
         """
-        response = self.get(f"/api/v1/users/{user_id}")
-        return GetUserResponseSchema.model_validate_json(response)
+        return self.get(f"/api/v1/users/{user_id}")
 
-    def update_user_api(self, user_id: str, request: UpdateUserRequestSchema) -> UpdateUserResponseSchema:
+    def update_user_api(self, user_id: str, request: UpdateUserRequestSchema) -> Response:
         """
         Метод обновления пользователя по идентификатору.
 
         :param user_id: Идентификатор пользователя.
         :param request: UpdateUserRequestSchema
-        :return: Ответ в виде объекта UpdateUserResponseSchema
+        :return: Ответ от сервера в виде объекта httpx.Response
         """
-        response = self.patch(f"/api/v1/users/{user_id}", json=request.model_dump(by_alias=True))
-        return UpdateUserResponseSchema.model_validate_json(response)
+        return self.patch(f"/api/v1/users/{user_id}", json=request.model_dump(by_alias=True))
 
     def delete_user_api(self, user_id: str) -> Response:
         """
@@ -49,7 +47,25 @@ class PrivateUsersClient(APIClient):
         return self.delete(f"/api/v1/users/{user_id}")
 
     def get_user(self, user_id: str) -> GetUserResponseSchema:
-        return self.get_user_api(user_id)
+        """
+        Метод получения пользователя по идентификатору.
+
+        :param user_id: Идентификатор пользователя.
+        :return: Ответ в виде объекта GetUserResponseSchema
+        """
+        response = self.get_user_api(user_id=user_id)
+        return GetUserResponseSchema.model_validate_json(response)
+    
+    def update_user(self, user_id: str, request: UpdateUserRequestSchema) -> UpdateUserResponseSchema:
+        """
+        Метод обновления пользователя по идентификатору.
+
+        :param user_id: Идентификатор пользователя.
+        :param request: UpdateUserRequestSchema
+        :return: Ответ в виде объекта UpdateUserResponseSchema
+        """
+        response = self.update_user_api(user_id=user_id, request=request)
+        return UpdateUserResponseSchema.model_validate_json(response)
 
 
 def get_private_users_client(user: AuthenticationUserSchema) -> PrivateUsersClient:
