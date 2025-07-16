@@ -23,7 +23,7 @@ class ExercisesClient(APIClient):
         :param query: GetExercisesQuerySchema
         :return: Ответ в виде объекта GetExercisesResponseSchema
         """
-        response = self.get("/api/v1/exercises", query=query)
+        response = self.get("/api/v1/exercises", query=query.model_dump(by_alias=True))
         return GetExercisesResponseSchema.model_validate_json(response.text)
 
     def get_exercise_api(self, exercise_id: str) -> GetExerciseResponseSchema:

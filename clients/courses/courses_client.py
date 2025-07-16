@@ -25,7 +25,7 @@ class CoursesClient(APIClient):
         :param query: GetCoursesQuerySchema
         :return: Ответ в виде объекта GetCoursesResponseSchema
         """
-        response = self.get("/api/v1/courses", params=query)
+        response = self.get("/api/v1/courses", params=query.model_dump(by_alias=True))
         return GetCoursesResponseSchema.model_validate_json(response.text)
 
     def get_course_api(self, course_id: str) -> GetCourseResponseSchema:
