@@ -23,7 +23,7 @@ def assert_get_user_response(get_user_response, create_user_response):
     :param get_user_response: ответ API при запросе пользователя.
     :raises create_user_response: ответ API при создании пользователя.
     """
-    assert_user
+    assert_user(get_user_response, create_user_response)
 
 
 def assert_create_user_response(request: CreateUserRequestSchema, response: CreateUserResponseSchema):
