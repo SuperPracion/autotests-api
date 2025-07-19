@@ -77,7 +77,7 @@ class GetExerciseResponseSchema(BaseModel):
     """
     Описание структуры запроса получения курсов.
     """
-    exercises: ExerciseSchema
+    exercise: ExerciseSchema
 
 
 class GetExercisesResponseSchema(BaseModel):
