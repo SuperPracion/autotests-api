@@ -11,7 +11,7 @@ class UserSchema(BaseModel):
     email: EmailStr
     last_name: str = Field(alias="lastName")
     first_name: str = Field(alias="firstName")
-    middleName: str = Field(alias="middleName")
+    middle_name: str = Field(alias="middleName")
 
 
 class CreateUserRequestSchema(BaseModel):
