@@ -51,7 +51,7 @@ class ExercisesClient(APIClient):
         :param request: UpdateExerciseRequestSchema
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.patch(f"/api/v1/exercises/{exercise_id}", json=request)
+        return self.patch(f"/api/v1/exercises/{exercise_id}", json=request.model_dump(by_alias=True))
 
     def delete_exercise_api(self, exercise_id: str) -> Response:
         """
