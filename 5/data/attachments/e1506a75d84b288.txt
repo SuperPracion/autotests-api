@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE1OjQ5OjQ1LjAxODcyNyIsInVzZXJfaWQiOiJlNzQ5N2VjMS0xYzMyLTQ2ZDktYmRhZC1hZWVkZmZiNGUxYzkifQ.dTuTF51HXiiffC4NCHBYupjVvrI2fNRZP9AzbuEMDLo' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Parent baby under let.","maxScore":99,"minScore":8,"description":"Weight benefit dinner help see local question. Too key his memory consumer. Hundred huge positive without wonder hit.\nNot big if minute tonight. Need field deep mind.","estimatedTime":"1 weeks","previewFileId":"48c0fae9-2f73-43cc-aaa8-f7d38b2d9030","createdByUserId":"e7497ec1-1c32-46d9-bdad-aeedffb4e1c9"}'

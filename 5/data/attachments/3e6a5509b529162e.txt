@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE1OjQ5OjQyLjkxNTE5NiIsInVzZXJfaWQiOiJkZTZmMzdjMy0wY2RlLTQ2ZjgtYmE2OC0wMzhmMzJhMGQxNDIifQ.rXAv6gNO5QsStieatgwqpWhmsO-Owepaa-fBxxJfJPw' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Now treatment Mr throughout himself there.","maxScore":62,"minScore":5,"description":"Describe despite Republican eat yard population. Sometimes place learn economic. Direction life her.\nAuthority our instead meeting us lot common worker.\nMy young water.","estimatedTime":"10 weeks","previewFileId":"25cba26e-183c-4d84-b26f-8eea7ed3906b","createdByUserId":"de6f37c3-0cde-46f8-ba68-038f32a0d142"}'

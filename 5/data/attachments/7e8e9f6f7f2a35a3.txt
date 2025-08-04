@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE1OjQ5OjQyLjE2NzI0NCIsInVzZXJfaWQiOiJkNjg5ZTdjZC1mMDVhLTQ5ZmEtYWY1YS00NWUxMWQzNDQxZjIifQ.WQs2MAOPA9JkzR0P7flmG5fNorxnPQMWj6ZjnhQf2yw' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Participant condition serious.","maxScore":67,"minScore":9,"description":"Owner feeling policy upon. Drug when increase price seek particularly.\nGive which light entire little serious too. Public million young form alone past hope.","estimatedTime":"5 weeks","previewFileId":"47ed6de3-5742-4f9e-8115-193e8a04e63d","createdByUserId":"d689e7cd-f05a-49fa-af5a-45e11d3441f2"}'

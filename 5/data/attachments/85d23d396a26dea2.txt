@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/8fc04f16-15cf-4861-abe9-670badaaea85
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/8fc04f16-15cf-4861-abe9-670badaaea85
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     BASE_ASSERTIONS:exercises.py:69 Check that "exercise=ExerciseSchema(id='8fc04f16-15cf-4861-abe9-670badaaea85', title='Information else who ability her happy level.', course_id='04aee6f4-3893-4d35-914a-33c6844e9598', max_score=74, min_score=1, order_index=71, description='Wind street card join. Stay provide win. Other shake art water significant.', estimated_time='1 weeks')" equals to exercise=ExerciseSchema(id='8fc04f16-15cf-4861-abe9-670badaaea85', title='Information else who ability her happy level.', course_id='04aee6f4-3893-4d35-914a-33c6844e9598', max_score=74, min_score=1, order_index=71, description='Wind street card join. Stay provide win. Other shake art water significant.', estimated_time='1 weeks')
+INFO     BASE_ASSERTIONS:exercises.py:45 Check that "id='8fc04f16-15cf-4861-abe9-670badaaea85' title='Information else who ability her happy level.' course_id='04aee6f4-3893-4d35-914a-33c6844e9598' max_score=74 min_score=1 order_index=71 description='Wind street card join. Stay provide win. Other shake art water significant.' estimated_time='1 weeks'" equals to id='8fc04f16-15cf-4861-abe9-670badaaea85' title='Information else who ability her happy level.' course_id='04aee6f4-3893-4d35-914a-33c6844e9598' max_score=74 min_score=1 order_index=71 description='Wind street card join. Stay provide win. Other shake art water significant.' estimated_time='1 weeks'
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 8fc04f16-15cf-4861-abe9-670badaaea85
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Information else who ability her happy level.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to 04aee6f4-3893-4d35-914a-33c6844e9598
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 74
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 1
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 71
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Wind street card join. Stay provide win. Other shake art water significant.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 1 weeks

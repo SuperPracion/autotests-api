@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises?courseId=c2e6d742-be96-44cc-b84b-29c30d037721
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=c2e6d742-be96-44cc-b84b-29c30d037721
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     BASE_ASSERTIONS:base.py:74 Check that length of "exercises" equals to 1
+INFO     BASE_ASSERTIONS:exercises.py:126 Check that "id='83808680-1b46-46f4-b33d-ff454bc8b894' title='Career watch choose program.' course_id='c2e6d742-be96-44cc-b84b-29c30d037721' max_score=83 min_score=29 order_index=45 description='Interview collection senior yet maintain. Whatever local nothing minute price.' estimated_time='6 weeks'" equals to id='83808680-1b46-46f4-b33d-ff454bc8b894' title='Career watch choose program.' course_id='c2e6d742-be96-44cc-b84b-29c30d037721' max_score=83 min_score=29 order_index=45 description='Interview collection senior yet maintain. Whatever local nothing minute price.' estimated_time='6 weeks'
+INFO     BASE_ASSERTIONS:exercises.py:45 Check that "id='83808680-1b46-46f4-b33d-ff454bc8b894' title='Career watch choose program.' course_id='c2e6d742-be96-44cc-b84b-29c30d037721' max_score=83 min_score=29 order_index=45 description='Interview collection senior yet maintain. Whatever local nothing minute price.' estimated_time='6 weeks'" equals to id='83808680-1b46-46f4-b33d-ff454bc8b894' title='Career watch choose program.' course_id='c2e6d742-be96-44cc-b84b-29c30d037721' max_score=83 min_score=29 order_index=45 description='Interview collection senior yet maintain. Whatever local nothing minute price.' estimated_time='6 weeks'
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 83808680-1b46-46f4-b33d-ff454bc8b894
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Career watch choose program.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to c2e6d742-be96-44cc-b84b-29c30d037721
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 83
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 29
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 45
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Interview collection senior yet maintain. Whatever local nothing minute price.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 6 weeks

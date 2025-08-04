@@ -1,0 +1,16 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make PATCH request to http://localhost:8000/api/v1/exercises/6c812409-d566-4efd-ac19-02d3874df68b
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/6c812409-d566-4efd-ac19-02d3874df68b
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     BASE_ASSERTIONS:exercises.py:86 Check that "title='Customer weight answer raise find after field college.' max_score=54 min_score=24 order_index=100 description='Guess modern represent for necessary against commercial. Beat movement break window.' estimated_time='9 weeks'" equals to exercise=ExerciseSchema(id='6c812409-d566-4efd-ac19-02d3874df68b', title='Customer weight answer raise find after field college.', course_id='8c6a3fa7-68fc-4bec-8fb9-c5a3a889d2e7', max_score=54, min_score=24, order_index=100, description='Guess modern represent for necessary against commercial. Beat movement break window.', estimated_time='9 weeks')
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Customer weight answer raise find after field college.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 54
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 24
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 100
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Guess modern represent for necessary against commercial. Beat movement break window.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 9 weeks

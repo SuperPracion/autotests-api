@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE1OjQ5OjQzLjY0OTAwMSIsInVzZXJfaWQiOiIxMjNkMmQxYi0xM2EzLTRiMmMtOWI0Ni1mMDg0YTM1Mjc4NTgifQ.2PVMNxLNwkfJusloa4UEyerGWXz1KLw9ekn2-0wvuPs' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Size perhaps sure instead time effect write oil.","maxScore":83,"minScore":13,"description":"Simple station speak send policy Mr. Send gas great radio. Require doctor at born large Mrs.","estimatedTime":"6 weeks","previewFileId":"6e49cac2-980b-4d6a-aadf-f0fcac831476","createdByUserId":"123d2d1b-13a3-4b2c-9b46-f084a3527858"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA0VDE1OjQ5OjQ1Ljc0NDkxNSIsInVzZXJfaWQiOiIzYTdiYmI1ZS1mNDhiLTQ5OGMtYWMyNC1kODZmMzI3NTkxNTUifQ.fePiikveDOrH0Rx5XCkvAgoMyvwuxjyt5bvIzxtu3yU' \
+  -H 'content-length: 312' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Require pick since interest hair detail.","courseId":"8c6a3fa7-68fc-4bec-8fb9-c5a3a889d2e7","maxScore":56,"minScore":5,"orderIndex":81,"description":"Receive base general under of organization edge. Cold suddenly trade seven be. Difficult push attention continue guy future.","estimatedTime":"8 weeks"}'
