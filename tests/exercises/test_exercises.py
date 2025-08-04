@@ -126,10 +126,10 @@ class TestExercises:
     @allure.sub_suite(AllureStory.GET_ENTITIES)
     def test_get_exercises(
         self,
-        function_exercise: ExerciseFixture,
         exercises_client: ExercisesClient,
+        function_exercise: ExerciseFixture
     ):
-        query = GetExercisesQuerySchema(course_is=function_exercise.request.course_id)
+        query = GetExercisesQuerySchema(course_id=function_exercise.request.course_id)
         response = exercises_client.get_exercises_api(query=query)
         response_data = GetExercisesResponseSchema.model_validate_json(response.text)
 

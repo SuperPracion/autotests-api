@@ -70,7 +70,7 @@ class GetExercisesQuerySchema(BaseModel):
     """
     model_config = ConfigDict(populate_by_name=True)
 
-    course_is: str = Field(alias="courseId")
+    course_id: str = Field(alias="courseId")
 
 
 class GetExerciseResponseSchema(BaseModel):
