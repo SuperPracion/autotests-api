@@ -41,7 +41,7 @@ jobs:
           pytest -m regression --alluredir=allure-results --numprocesses 2  
   publish-report:
     runs-on: ubuntu-latest
-    needs: job1
+    needs: run-tests
     steps:
       - name: Get Allure history
         uses: actions/checkout@v4  
