@@ -2,7 +2,7 @@
 
 Этот проект реализует автоматизированные тесты для [API Course Test Server](https://github.com/Nikita-Filonov/qa-automation-engineer-api-course). Тесты написаны с использованием **Python**, **Pytest**, **Allure**, **Pydantic**, **Faker** и **HTTPX**. Исходный код тестового приложения доступен на [GitHub](https://github.com/Nikita-Filonov/qa-automation-engineer-api-course).
 
-## Обзор проекта
+# Обзор проекта
 
 Цель этого проекта - автоматизация тестирования сервера API Course с фокусом на REST API. Автоматизированные тесты проверяют различные функции приложения для обеспечения его стабильности и корректности.
 
@@ -15,10 +15,8 @@
 - Продвинутые техники для повышения надежности тестов
 - Стандартизированную структуру проекта для удобства поддержки
 
-## Начало работы
-
+# Начало работы
 ### Клонирование репозитория
-
 ```bash
 git clone https://github.com/SuperPracion/autotests-api.git
 cd autotests-api
