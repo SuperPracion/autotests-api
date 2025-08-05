@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDEzOjU4OjQ4LjQ5ODY5NCIsInVzZXJfaWQiOiI0MDJmZDAyNS1mYWUzLTQ1YTItYWQ0MC0wMWE4N2YwNTNiMGMifQ.d-1sxl6bR23hOB0HeBR9lE-JsDDYaZaH6h4VkfPyTbs' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Answer realize play event red.","maxScore":65,"minScore":27,"description":"Picture simple pay before off live. Reach continue significant set program. Man reason continue dog unit.\nA laugh bed child pick design window. Recent top save nice find.","estimatedTime":"6 weeks","previewFileId":"99f858aa-5937-4b32-af2d-5f63c4b32810","createdByUserId":"402fd025-fae3-45a2-ad40-01a87f053b0c"}'

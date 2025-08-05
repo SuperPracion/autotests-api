@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     BASE_ASSERTIONS:exercises.py:25 Check that "title='Knowledge fish whom drug push decision.' course_id='dd8d22f7-fd3a-4d3e-ab88-2b9c202530ff' max_score=81 min_score=1 order_index=71 description='Serious conference common. Fly girl treat experience science.\nAgent mean another paper right check. Here kid candidate realize chair bar writer. Nothing else choose fill.' estimated_time='3 weeks'" equals to exercise=ExerciseSchema(id='dd25e54c-64b7-4037-ad64-538b80d0b0d4', title='Knowledge fish whom drug push decision.', course_id='dd8d22f7-fd3a-4d3e-ab88-2b9c202530ff', max_score=81, min_score=1, order_index=71, description='Serious conference common. Fly girl treat experience science.\nAgent mean another paper right check. Here kid candidate realize chair bar writer. Nothing else choose fill.', estimated_time='3 weeks')
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Knowledge fish whom drug push decision.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to dd8d22f7-fd3a-4d3e-ab88-2b9c202530ff
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 81
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 1
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 71
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Serious conference common. Fly girl treat experience science.
+Agent mean another paper right check. Here kid candidate realize chair bar writer. Nothing else choose fill.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 3 weeks

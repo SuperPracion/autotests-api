@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/e8b0034d-6821-4f7a-be36-7aa8c829ab86' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDEzOjU4OjQ2LjM2NDkzMSIsInVzZXJfaWQiOiJkM2FlYmI4ZC05MWZlLTQwMDYtOTU5MS0yNjE2MWYyNjhlNzAifQ.tvGTc4v8FKFpYchW8UVD3iKxEzcty0bdFE6BjLCRoJQ' \
+  -H 'content-length: 227' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Morning suddenly author inside money government.","maxScore":89,"minScore":16,"description":"International side allow poor board. Once significant generation moment. Black share growth win.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDEzOjU4OjQ5LjIzMzI0MCIsInVzZXJfaWQiOiJkYmE4Nzc1My0zODMxLTRkMDItYjkyMi1kZTZjNDM5YjQ5ZmEifQ.NKsG0N4RfvkEK0l2ljj3bK9UoEseEd7215yQkNzen7Y' \
+  -H 'content-length: 297' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Campaign cold land.","courseId":"37cb2add-decf-4b5c-b521-4790b946d997","maxScore":81,"minScore":19,"orderIndex":66,"description":"Course compare real thing receive blue at. Role high six paper station energy front. Election officer feeling team up single end.","estimatedTime":"6 weeks"}'

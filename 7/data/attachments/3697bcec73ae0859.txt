@@ -1,0 +1,17 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make PATCH request to http://localhost:8000/api/v1/exercises/954a4041-c4cc-423b-96a5-d77045a2256e
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/954a4041-c4cc-423b-96a5-d77045a2256e
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     BASE_ASSERTIONS:exercises.py:86 Check that "title='Yes personal never piece.' max_score=80 min_score=2 order_index=33 description='Help gas ball yard church. Board under market event though.\nOften professor rise toward push food could common. Artist interesting force white leave huge next.' estimated_time='8 weeks'" equals to exercise=ExerciseSchema(id='954a4041-c4cc-423b-96a5-d77045a2256e', title='Yes personal never piece.', course_id='37cb2add-decf-4b5c-b521-4790b946d997', max_score=80, min_score=2, order_index=33, description='Help gas ball yard church. Board under market event though.\nOften professor rise toward push food could common. Artist interesting force white leave huge next.', estimated_time='8 weeks')
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Yes personal never piece.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 80
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 2
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 33
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Help gas ball yard church. Board under market event though.
+Often professor rise toward push food could common. Artist interesting force white leave huge next.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 8 weeks

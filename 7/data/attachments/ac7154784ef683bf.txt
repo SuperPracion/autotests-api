@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/812a8003-1ffb-4aa7-86dc-04edc0170ab7
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/812a8003-1ffb-4aa7-86dc-04edc0170ab7
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     BASE_ASSERTIONS:exercises.py:69 Check that "exercise=ExerciseSchema(id='812a8003-1ffb-4aa7-86dc-04edc0170ab7', title='Their energy quickly yeah all though.', course_id='feb91ebd-beda-43f8-b894-f9149081b90b', max_score=81, min_score=27, order_index=32, description='State final research down different. Standard fund question expect. Candidate direction civil open follow account.\nChoice five stay probably their everyone. Mrs early general heart minute.', estimated_time='7 weeks')" equals to exercise=ExerciseSchema(id='812a8003-1ffb-4aa7-86dc-04edc0170ab7', title='Their energy quickly yeah all though.', course_id='feb91ebd-beda-43f8-b894-f9149081b90b', max_score=81, min_score=27, order_index=32, description='State final research down different. Standard fund question expect. Candidate direction civil open follow account.\nChoice five stay probably their everyone. Mrs early general heart minute.', estimated_time='7 weeks')
+INFO     BASE_ASSERTIONS:exercises.py:45 Check that "id='812a8003-1ffb-4aa7-86dc-04edc0170ab7' title='Their energy quickly yeah all though.' course_id='feb91ebd-beda-43f8-b894-f9149081b90b' max_score=81 min_score=27 order_index=32 description='State final research down different. Standard fund question expect. Candidate direction civil open follow account.\nChoice five stay probably their everyone. Mrs early general heart minute.' estimated_time='7 weeks'" equals to id='812a8003-1ffb-4aa7-86dc-04edc0170ab7' title='Their energy quickly yeah all though.' course_id='feb91ebd-beda-43f8-b894-f9149081b90b' max_score=81 min_score=27 order_index=32 description='State final research down different. Standard fund question expect. Candidate direction civil open follow account.\nChoice five stay probably their everyone. Mrs early general heart minute.' estimated_time='7 weeks'
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 812a8003-1ffb-4aa7-86dc-04edc0170ab7
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Their energy quickly yeah all though.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to feb91ebd-beda-43f8-b894-f9149081b90b
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 81
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 27
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 32
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to State final research down different. Standard fund question expect. Candidate direction civil open follow account.
+Choice five stay probably their everyone. Mrs early general heart minute.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 7 weeks
