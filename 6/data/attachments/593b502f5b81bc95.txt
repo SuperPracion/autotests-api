@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     BASE_ASSERTIONS:exercises.py:25 Check that "title='Product tell research in.' course_id='2f4ad544-5320-4918-8f03-66ed569fa64f' max_score=50 min_score=10 order_index=35 description='Tv themselves Congress which shoulder movement.\nCamera purpose artist police.\nDifference but fly that. Range career have dinner. Question responsibility help role leg.' estimated_time='5 weeks'" equals to exercise=ExerciseSchema(id='4f9e4ee6-176c-4e96-8dc3-374b5e592336', title='Product tell research in.', course_id='2f4ad544-5320-4918-8f03-66ed569fa64f', max_score=50, min_score=10, order_index=35, description='Tv themselves Congress which shoulder movement.\nCamera purpose artist police.\nDifference but fly that. Range career have dinner. Question responsibility help role leg.', estimated_time='5 weeks')
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Product tell research in.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to 2f4ad544-5320-4918-8f03-66ed569fa64f
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 50
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 10
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 35
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Tv themselves Congress which shoulder movement.
+Camera purpose artist police.
+Difference but fly that. Range career have dinner. Question responsibility help role leg.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 5 weeks

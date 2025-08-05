@@ -1,0 +1,28 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/courses?userId=8e4e7375-d59b-4b10-a583-c090af7293b7
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=8e4e7375-d59b-4b10-a583-c090af7293b7
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     BASE_ASSERTIONS:base.py:74 Check that length of "courses" equals to 1
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 07d45de7-b763-4046-bd2a-049fd1176109
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Year total picture traditional popular class ask old.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 80
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 24
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Claim character alone know there company. Us war true maybe matter his.
+Garden investment find degree thousand condition. Career test deep money.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 3 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 3df9cef0-d8ed-4209-8c51-8a843dad5c56
+INFO     BASE_ASSERTIONS:base.py:38 Check that "url" equals to http://localhost:8000/static/tests/7190644d-d1ee-4e9f-94c3-ee76cab00837.png
+INFO     BASE_ASSERTIONS:base.py:38 Check that "filename" equals to 7190644d-d1ee-4e9f-94c3-ee76cab00837.png
+INFO     BASE_ASSERTIONS:base.py:38 Check that "directory" equals to tests
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 8e4e7375-d59b-4b10-a583-c090af7293b7
+INFO     BASE_ASSERTIONS:base.py:38 Check that "email" equals to matthew38@example.net
+INFO     BASE_ASSERTIONS:base.py:38 Check that "last_name" equals to Foster
+INFO     BASE_ASSERTIONS:base.py:38 Check that "first_name" equals to Aaron
+INFO     BASE_ASSERTIONS:base.py:38 Check that "middle_name" equals to Sarah

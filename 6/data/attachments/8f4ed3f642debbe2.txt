@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDA3OjQzOjEzLjg3OTQ2NSIsInVzZXJfaWQiOiJjYzJmN2Q5NC0zMjAzLTRmMmYtODYxMy1lMTY4ZjIwMDI3NjAifQ.B_J7pHJqxlENkl9S68YZaa1nKXj5N3F9c-yrf-RTyTA' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Participant program until human like.","maxScore":69,"minScore":27,"description":"Human speak minute son daughter government set. National program require size. Final executive room call what shake.\nSite case push third focus few. In strong simple value.","estimatedTime":"7 weeks","previewFileId":"b7d07a49-dc88-4b27-b0b8-86d10bd4d5b4","createdByUserId":"cc2f7d94-3203-4f2f-8613-e168f2002760"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDA3OjQzOjEzLjIyOTA5MyIsInVzZXJfaWQiOiI2ODIwZDUzMS0zNzlhLTRkZTMtYjg4Yy05YzQ5MTM2ZDIyMTIifQ.gJCz1w1CgQTNd-1YDOhA_pqVjFZ1SiQ_2GZoxIvBdWs' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Beat executive expect allow hour white.","courseId":"02a455a7-603a-476c-8ba8-ca84afe265bf","maxScore":63,"minScore":1,"orderIndex":80,"description":"Sure north share only street. Item idea treat she better.\nLikely notice industry build. Partner ground write cell almost the perform. Painting former laugh show today change make.","estimatedTime":"7 weeks"}'

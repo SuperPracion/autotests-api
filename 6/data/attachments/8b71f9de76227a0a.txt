@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDA3OjQzOjExLjAxMTk3MiIsInVzZXJfaWQiOiI4ZTRlNzM3NS1kNTliLTRiMTAtYTU4My1jMDkwYWY3MjkzYjcifQ.BbSemVtDRGU7pCQRy7bpjJ__dEmELjhbbo7wg6qpH0w' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Year total picture traditional popular class ask old.","maxScore":80,"minScore":24,"description":"Claim character alone know there company. Us war true maybe matter his.\nGarden investment find degree thousand condition. Career test deep money.","estimatedTime":"3 weeks","previewFileId":"3df9cef0-d8ed-4209-8c51-8a843dad5c56","createdByUserId":"8e4e7375-d59b-4b10-a583-c090af7293b7"}'

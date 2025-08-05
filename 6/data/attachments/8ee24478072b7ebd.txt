@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/e4477e2b-2455-4151-94f4-b55be3252030
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/e4477e2b-2455-4151-94f4-b55be3252030
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     BASE_ASSERTIONS:exercises.py:69 Check that "exercise=ExerciseSchema(id='e4477e2b-2455-4151-94f4-b55be3252030', title='Beat executive expect allow hour white.', course_id='02a455a7-603a-476c-8ba8-ca84afe265bf', max_score=63, min_score=1, order_index=80, description='Sure north share only street. Item idea treat she better.\nLikely notice industry build. Partner ground write cell almost the perform. Painting former laugh show today change make.', estimated_time='7 weeks')" equals to exercise=ExerciseSchema(id='e4477e2b-2455-4151-94f4-b55be3252030', title='Beat executive expect allow hour white.', course_id='02a455a7-603a-476c-8ba8-ca84afe265bf', max_score=63, min_score=1, order_index=80, description='Sure north share only street. Item idea treat she better.\nLikely notice industry build. Partner ground write cell almost the perform. Painting former laugh show today change make.', estimated_time='7 weeks')
+INFO     BASE_ASSERTIONS:exercises.py:45 Check that "id='e4477e2b-2455-4151-94f4-b55be3252030' title='Beat executive expect allow hour white.' course_id='02a455a7-603a-476c-8ba8-ca84afe265bf' max_score=63 min_score=1 order_index=80 description='Sure north share only street. Item idea treat she better.\nLikely notice industry build. Partner ground write cell almost the perform. Painting former laugh show today change make.' estimated_time='7 weeks'" equals to id='e4477e2b-2455-4151-94f4-b55be3252030' title='Beat executive expect allow hour white.' course_id='02a455a7-603a-476c-8ba8-ca84afe265bf' max_score=63 min_score=1 order_index=80 description='Sure north share only street. Item idea treat she better.\nLikely notice industry build. Partner ground write cell almost the perform. Painting former laugh show today change make.' estimated_time='7 weeks'
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to e4477e2b-2455-4151-94f4-b55be3252030
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Beat executive expect allow hour white.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to 02a455a7-603a-476c-8ba8-ca84afe265bf
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 63
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 1
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 80
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Sure north share only street. Item idea treat she better.
+Likely notice industry build. Partner ground write cell almost the perform. Painting former laugh show today change make.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 7 weeks

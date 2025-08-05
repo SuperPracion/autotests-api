@@ -1,0 +1,17 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Source training which family perform fire painting activity.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 58
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 3
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Today view never executive group truth. Son meet program role catch. Author both serious. Service fight fly wait similar during.
+Tv movie rule.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 6 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that "preview_file_id" equals to 2a76f7b3-22d5-43ed-a5c6-89d047d7055f
+INFO     BASE_ASSERTIONS:base.py:38 Check that "created_by_user_id" equals to 37e83359-fb88-480c-96d1-4c738d22ab6c

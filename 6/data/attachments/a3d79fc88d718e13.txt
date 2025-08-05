@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDA3OjQzOjEzLjg3OTQ2NSIsInVzZXJfaWQiOiJjYzJmN2Q5NC0zMjAzLTRmMmYtODYxMy1lMTY4ZjIwMDI3NjAifQ.B_J7pHJqxlENkl9S68YZaa1nKXj5N3F9c-yrf-RTyTA' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Product tell research in.","courseId":"2f4ad544-5320-4918-8f03-66ed569fa64f","maxScore":50,"minScore":10,"orderIndex":35,"description":"Tv themselves Congress which shoulder movement.\nCamera purpose artist police.\nDifference but fly that. Range career have dinner. Question responsibility help role leg.","estimatedTime":"5 weeks"}'

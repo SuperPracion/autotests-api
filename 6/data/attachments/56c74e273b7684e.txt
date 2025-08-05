@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDA3OjQzOjExLjc2MzgwNyIsInVzZXJfaWQiOiJlZTBmZjk3Ny02Mzc0LTRjZTYtYTNhYy0wNDdjNDk4YjlkZDYifQ.TI2DVJyYZWTI_0_Q3iCQUeiKlLHrXWPcmS1bGHWyz2E' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ready hair young line.","maxScore":80,"minScore":27,"description":"Model forget pay stock attorney. Remember reveal just front security. Billion talk collection learn dog similar pick second.\nBoard information however program. May that friend movie order position.","estimatedTime":"1 weeks","previewFileId":"1e98e197-702d-4005-9c73-c2a388134eea","createdByUserId":"ee0ff977-6374-4ce6-a3ac-047c498b9dd6"}'

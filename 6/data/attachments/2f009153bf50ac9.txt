@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDA3OjQzOjEyLjUwMzY5NiIsInVzZXJfaWQiOiIzN2U4MzM1OS1mYjg4LTQ4MGMtOTZkMS00YzczOGQyMmFiNmMifQ.Iv22pbVf14610ieqsGTvOzIthGKIC2nOd9Pz8sdjlxA' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Source training which family perform fire painting activity.","maxScore":58,"minScore":3,"description":"Today view never executive group truth. Son meet program role catch. Author both serious. Service fight fly wait similar during.\nTv movie rule.","estimatedTime":"6 weeks","previewFileId":"2a76f7b3-22d5-43ed-a5c6-89d047d7055f","createdByUserId":"37e83359-fb88-480c-96d1-4c738d22ab6c"}'
