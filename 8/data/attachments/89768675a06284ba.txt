@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE0OjAzOjM2LjYxNjg3NyIsInVzZXJfaWQiOiJiNDdmMDkwZC00NWNmLTRmNWQtOTJhNy1hYjgyNjk3MGQ1ZmYifQ.8KsOWzBMIwetvuQ9RwBUZ9jMpL2uZMpEB54b43yMRRA' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dream budget trip woman street adult camera.","courseId":"99680502-4efd-43eb-9629-8c1b90f846ff","maxScore":60,"minScore":1,"orderIndex":57,"description":"Group coach top tough stay effect word. Only hotel talk. Result billion difficult approach future now.\nAct others hope method. Range if recently.","estimatedTime":"10 weeks"}'

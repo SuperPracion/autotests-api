@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE0OjAzOjM1LjIzNjg4OSIsInVzZXJfaWQiOiIzZTg3MGU0NC1mNmUyLTQxODctYmExOC02NDgwN2VkODBmYWMifQ.CB21TJTtdJUA-l-_-rjAKd1Pg55uCZUbKgizpdPwkaQ' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yourself possible low on.","maxScore":88,"minScore":8,"description":"Voice gas doctor too. Management professional career daughter message sing. Technology really identify nature mother.","estimatedTime":"3 weeks","previewFileId":"a53fad33-0044-402c-b0e6-8497e8419365","createdByUserId":"3e870e44-f6e2-4187-ba18-64807ed80fac"}'

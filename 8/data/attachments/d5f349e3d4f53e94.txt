@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE0OjAzOjM2LjYxNjg3NyIsInVzZXJfaWQiOiJiNDdmMDkwZC00NWNmLTRmNWQtOTJhNy1hYjgyNjk3MGQ1ZmYifQ.8KsOWzBMIwetvuQ9RwBUZ9jMpL2uZMpEB54b43yMRRA' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Blue color quite entire senior.","maxScore":66,"minScore":3,"description":"First treatment best hair. Own voice nearly method to. Himself success place man body everybody.\nSpring include good computer. Particularly world lawyer PM maintain teacher opportunity.","estimatedTime":"1 weeks","previewFileId":"156af8b9-351d-40a6-8b79-efa953eac39e","createdByUserId":"b47f090d-45cf-4f5d-92a7-ab826970d5ff"}'

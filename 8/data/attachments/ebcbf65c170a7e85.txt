@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/485ec1f3-5154-4e54-ad42-f3e6f492b803' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE0OjAzOjM3LjM0NDE0MCIsInVzZXJfaWQiOiJiMTJjNTZkMi1kYzhmLTQxYjEtYjdjMy0xMWQ3MWNjZGJhMjUifQ.OQJ-wclv6fvXEz3_wh26eghZuDtlUbckwmff8vkF6ao' \
+  -H 'content-length: 283' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Probably agree town alone those.","maxScore":55,"minScore":27,"orderIndex":17,"description":"Either there majority chair value blue series.\nPaper only carry necessary TV state. Customer during major weight. Strong herself course student action.","estimatedTime":"7 weeks"}'

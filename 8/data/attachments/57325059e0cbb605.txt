@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     BASE_ASSERTIONS:exercises.py:25 Check that "title='Dream budget trip woman street adult camera.' course_id='99680502-4efd-43eb-9629-8c1b90f846ff' max_score=60 min_score=1 order_index=57 description='Group coach top tough stay effect word. Only hotel talk. Result billion difficult approach future now.\nAct others hope method. Range if recently.' estimated_time='10 weeks'" equals to exercise=ExerciseSchema(id='bacf2741-0661-432e-a311-566da826a256', title='Dream budget trip woman street adult camera.', course_id='99680502-4efd-43eb-9629-8c1b90f846ff', max_score=60, min_score=1, order_index=57, description='Group coach top tough stay effect word. Only hotel talk. Result billion difficult approach future now.\nAct others hope method. Range if recently.', estimated_time='10 weeks')
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Dream budget trip woman street adult camera.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to 99680502-4efd-43eb-9629-8c1b90f846ff
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 60
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 1
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 57
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Group coach top tough stay effect word. Only hotel talk. Result billion difficult approach future now.
+Act others hope method. Range if recently.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 10 weeks

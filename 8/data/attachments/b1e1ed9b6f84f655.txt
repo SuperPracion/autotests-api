@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/01a45e7b-95c1-49c9-8e0d-4ebc6f52f6eb' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE0OjAzOjM0LjQ4OTI4MCIsInVzZXJfaWQiOiIwZGQ5ZWU5Yy1jMmU0LTQ2ZDgtOTg0Zi1hZGYxMGJiMDgzZTAifQ.9usuZIuU2Rm5AEi16zydFDiI1nk2HOGSnmcCt1gVIHk' \
+  -H 'content-length: 245' \
+  -H 'content-type: application/json' \
+  -d '{"title":"If growth sign consumer different pass.","maxScore":59,"minScore":28,"description":"Occur southern year marriage provide health. Wall mission page newspaper quality measure show. Federal race fast lead door.","estimatedTime":"6 weeks"}'

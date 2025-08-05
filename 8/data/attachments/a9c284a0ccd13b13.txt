@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTA1VDE0OjAzOjM3LjM0NDE0MCIsInVzZXJfaWQiOiJiMTJjNTZkMi1kYzhmLTQxYjEtYjdjMy0xMWQ3MWNjZGJhMjUifQ.OQJ-wclv6fvXEz3_wh26eghZuDtlUbckwmff8vkF6ao' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Generation detail avoid take answer.","courseId":"e06a5e3d-d76d-4bef-a94e-f6a8b9fade9c","maxScore":80,"minScore":20,"orderIndex":35,"description":"According mission camera. Phone central throw air perhaps worry pass.\nGuess man majority believe every bank establish. Must seek time church see.","estimatedTime":"10 weeks"}'
